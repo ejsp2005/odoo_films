@@ -3,13 +3,13 @@
     <!-- Film's top menu  -->
 
     <menuitem 
-        name="Film" 
+        name="Films" 
         id="films_menu_root"/>
 
     <!-- film listing -->
 
     <menuitem 
-        name="Films" 
+        name="Films' data" 
         id="films_menu" 
         parent="films_menu_root"/>
     <menuitem 
@@ -17,5 +17,15 @@
         id="film_list_menu" 
         parent="films_menu"
         action="film_list_action"/>
+
+    <menuitem 
+        name="Films' tags" 
+        id="films_tags_menu" 
+        parent="films_menu_root"/>
+    <menuitem 
+        name="Film List" 
+        id="film_list_tags_menu" 
+        parent="films_tags_menu"
+        action="film_list_tags_action"/>
 
 </odoo>

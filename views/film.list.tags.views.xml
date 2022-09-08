@@ -1,0 +1,7 @@
+<odoo>
+    <record id="film_list_tags_action" model="ir.actions.act_window">
+        <field name="name">Film Tags</field>
+        <field name="res_model">film.list.tag</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

@@ -25,6 +25,7 @@
     # always loaded
     'data': [
         'views/film.list.views.xml',
+        'views/film.list.tags.views.xml',
         'views/menu.xml',
         'security/ir.model.access.csv',
     ],

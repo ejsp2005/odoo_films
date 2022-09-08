@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-from copy import copy
-from wsgiref.handlers import format_date_time
+
 from odoo import models, fields
 
 class FilmList(models.Model):
@@ -11,4 +10,4 @@ class FilmList(models.Model):
     description = fields.Text()
     # year = fields.Char()
     # director = fields.Char()
-    
+    tags_ids = fields.Many2many("film.list.tag")
