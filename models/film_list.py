@@ -9,6 +9,6 @@ class FilmList(models.Model):
 
     name = fields.Char(required=True)
     description = fields.Text()
-    year_of_the_film = fields.Integer()
-    director = fields.Char()
+    # year = fields.Char()
+    # director = fields.Char()
     

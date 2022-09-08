@@ -16,12 +16,12 @@
                 <group>
                   <field name="description" string="Description" />
                 </group>
-                <group>
-                  <field name="year_of_the_film" string="Year" />
+                <!-- <group>
+                  <field name="year" string="Year" />
                 </group>
                 <group>
                   <field name="director" string="Director" />
-                </group>
+                </group> -->
               </group>
             </page>
           </notebook>
@@ -37,8 +37,8 @@
       <tree string="Film List">
         <field name="name" string="Title"/>
         <field name="description" string="Description"/>
-        <field name="year_of_the_film" string="Year"/>
-        <field name="director" string="Director"/>
+        <!-- <field name="year" string="Year"/>
+        <field name="director" string="Director"/> -->
       </tree>
     </field>
   </record>
