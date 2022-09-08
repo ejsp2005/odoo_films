@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Film's top menu  -->
+
+    <menuitem 
+        name="Film" 
+        id="films_menu_root"/>
+
+    <!-- film listing -->
+
+    <menuitem 
+        name="Films" 
+        id="films_menu" 
+        parent="films_menu_root"/>
+    <menuitem 
+        name="Film List" 
+        id="film_list_menu" 
+        parent="films_menu"
+        action="film_list_action"/>
+
+</odoo>

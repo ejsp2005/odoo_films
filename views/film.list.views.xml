@@ -1,0 +1,52 @@
+<odoo>
+  <record model="ir.ui.view" id="film_list_view_form">
+    <field name="name">list.film.form</field>
+    <field name="model">film.list</field>
+    <field name="arch" type="xml">
+      <form string="Film List">
+        <sheet>
+          <group>
+            <group>
+              <field name="name" string="Film Title"/>
+            </group>
+          </group>
+          <notebook>
+            <page string="Film data">
+              <group>
+                <group>
+                  <field name="description" string="Description" />
+                </group>
+                <group>
+                  <field name="year_of_the_film" string="Year" />
+                </group>
+                <group>
+                  <field name="director" string="Director" />
+                </group>
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="film_list_view_tree" model="ir.ui.view">
+    <field name="name">film.list.tree</field>
+    <field name="model">film.list</field>
+    <field name="arch" type="xml">
+      <tree string="Film List">
+        <field name="name" string="Title"/>
+        <field name="description" string="Description"/>
+        <field name="year_of_the_film" string="Year"/>
+        <field name="director" string="Director"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="film_list_action" model="ir.actions.act_window">
+    <field name="name">Film Title</field>
+    <field name="res_model">film.list</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>
