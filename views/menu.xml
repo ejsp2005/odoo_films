@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Film's top menu  -->
+    <!-- top menu  -->
 
     <menuitem 
         name="Films" 
         id="films_menu_root"/>
 
-    <!-- film listing -->
+    <!-- films -->
 
     <menuitem 
         name="Films' data" 
@@ -17,6 +17,8 @@
         id="film_list_menu" 
         parent="films_menu"
         action="film_list_action"/>
+
+    <!-- tags -->
 
     <menuitem 
         name="Films' tags" 
