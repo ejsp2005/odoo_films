@@ -9,25 +9,18 @@
     <!-- films -->
 
     <menuitem 
-        name="Films' data" 
+        name="Films data" 
         id="films_menu" 
         parent="films_menu_root"/>
     <menuitem 
-        name="Film List" 
+        name="List" 
         id="film_list_menu" 
         parent="films_menu"
         action="film_list_action"/>
-
-    <!-- tags -->
-
     <menuitem 
-        name="Films' tags" 
-        id="films_tags_menu" 
-        parent="films_menu_root"/>
-    <menuitem 
-        name="Film List" 
+        name="Tags" 
         id="film_list_tags_menu" 
-        parent="films_tags_menu"
+        parent="films_menu"
         action="film_list_tags_action"/>
 
 </odoo>
