@@ -32,6 +32,9 @@
                 </group>
               </group>
             </page>
+            <page name="expert_points" string="Points of Experts (Rotten Tomatoes)">
+              <field name="film_expert_points_ids" />
+            </page>
           </notebook>
         </sheet>
       </form>

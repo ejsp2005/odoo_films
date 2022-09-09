@@ -26,3 +26,4 @@ class FilmList(models.Model):
             ('comedy', 'Comedy')
         ]
     )
+    film_expert_points_ids = fields.One2many('film.expert.points', 'films_id', string='film_expert_points')

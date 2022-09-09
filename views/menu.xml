@@ -22,5 +22,4 @@
         id="film_list_tags_menu" 
         parent="films_menu"
         action="film_list_tags_action"/>
-
 </odoo>

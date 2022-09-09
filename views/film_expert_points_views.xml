@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="film_expert_points_view_form" model="ir.ui.view">
+        <field name="name">film.expert.points.view.form</field>
+        <field name="model">film.expert.points</field>
+        <field name="arch" type="xml">
+            <form string="film_expert_points_form">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="points" string="Points" />
+                            <field name="evaluation" string="Evaluation" />
+                            <field name="employee_id" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="film_expert_points_view_tree" model="ir.ui.view">
+        <field name="name">film.expert.points.view.tree</field>
+        <field name="model">film.expert.points</field>
+        <field name="arch" type="xml">
+            <tree string="film_expert_points_tree">
+                <field name="points" />
+                <field name="employee_id" />
+                <field name="evaluation" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

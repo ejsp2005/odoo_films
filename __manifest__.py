@@ -24,6 +24,7 @@
 
     # always loaded
     'data': [
+        'views/film_expert_points_views.xml',
         'views/film_list_tags_views.xml',
         'views/film_list_views.xml',
         'views/menu.xml',

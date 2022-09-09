@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 films.access_film_list,access_film_list,model_film_list,base.group_user,1,1,1,1
 films.access_film_list_tag,access_film_list_tag,films.model_film_list_tag,base.group_user,1,1,1,1
+films.access_film_expert_points,access_film_expert_points,films.model_film_expert_points,base.group_user,1,1,1,1
